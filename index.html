@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Some page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="jquery.ba-throttle-debounce.min.js"></script>
+    <script src="jquery.nameTransform.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class= "nav navbar-nav">
+            <li><a href="#">some link one</a></li>
+            <li><a href="#">some link two</a></li>
+            <li><a href="#">some link three</a></li>
+            <li><a href="#">some link four</a></li>
+            <li class="name">
+              <a href="#">Константинопольский Константин Константинович</a>
+            </li>
+            <li><a href="#">some link five</a></li>
+            <li><a href="#">some link six</a></li>
+            <li><a href="#">some link seven</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <h1>Some page</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+      <script type="text/javascript">
+        $('.name').nameTransform();
+      </script>
+    </div>
+  </body>
+</html>
